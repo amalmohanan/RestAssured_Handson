@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18641" started-at="2022-05-17T08:34:22Z" finished-at="2022-05-17T08:34:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18641" started-at="2022-05-17T08:34:22Z" finished-at="2022-05-17T08:34:41Z">
+      <class name="api.automation.apihandson.ApiTest">
+        <test-method status="PASS" signature="getMethod()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="getMethod" duration-ms="5068" started-at="2022-05-17T08:34:22Z" finished-at="2022-05-17T08:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="getMethod404()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="getMethod404" duration-ms="2088" started-at="2022-05-17T08:34:27Z" finished-at="2022-05-17T08:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod404 -->
+        <test-method status="PASS" signature="putMethodWithJsonObject()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="putMethodWithJsonObject" duration-ms="1804" started-at="2022-05-17T08:34:29Z" finished-at="2022-05-17T08:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethodWithJsonObject -->
+        <test-method status="PASS" signature="deleteMethod404()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="deleteMethod404" duration-ms="1804" started-at="2022-05-17T08:34:31Z" finished-at="2022-05-17T08:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethod404 -->
+        <test-method status="PASS" signature="postMethodWithEscapeChar()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="postMethodWithEscapeChar" duration-ms="2820" started-at="2022-05-17T08:34:33Z" finished-at="2022-05-17T08:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethodWithEscapeChar -->
+        <test-method status="PASS" signature="postMethodWithJsonFile()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="postMethodWithJsonFile" duration-ms="1718" started-at="2022-05-17T08:34:36Z" finished-at="2022-05-17T08:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethodWithJsonFile -->
+        <test-method status="PASS" signature="putMethodWithEscapeChar()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="putMethodWithEscapeChar" duration-ms="1669" started-at="2022-05-17T08:34:37Z" depends-on-methods="api.automation.apihandson.ApiTest.getMethod" finished-at="2022-05-17T08:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethodWithEscapeChar -->
+        <test-method status="PASS" signature="deleteMethod()[pri:0, instance:api.automation.apihandson.ApiTest@39aeed2f]" name="deleteMethod" duration-ms="1598" started-at="2022-05-17T08:34:39Z" depends-on-methods="api.automation.apihandson.ApiTest.putMethodWithJsonObject" finished-at="2022-05-17T08:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethod -->
+      </class> <!-- api.automation.apihandson.ApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
